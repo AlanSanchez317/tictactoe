@@ -164,13 +164,12 @@ h1 {
 	display: flex;
 }
 
-/* Highlight animation */
 @keyframes highlight {
     from {
         background-color: transparent;
     }
     to {
-        background-color: rgba(255, 255, 0, 0.5); /* Adjust the color to fit your design */
+        background-color: rgba(255, 255, 0, 0.5); 
     }
 }
 

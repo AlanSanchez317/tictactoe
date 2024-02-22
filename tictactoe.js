@@ -128,6 +128,7 @@ function endGame(draw, winningCombination = []) {
         let winner = isPlayer_O_Turn ? "O" : "X";
         updateWinCounter(winner); // Call to update the win counter with the correct winner
         winningMessageTextElement.innerText = `Player ${winner} Wins!`;
+		triggerConfetti();
     } else {
         winningMessageTextElement.innerText = "It's a Draw!";
     }
